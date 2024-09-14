@@ -13,12 +13,12 @@
     padding: 2rem 3rem;
     overflow: hidden;
     align-items: center;
+    justify-content: center;
 }
 
 .slides {
     width: 100%;
     height: 80%;
-    margin-bottom: 2em;
     overflow: hidden;
     background: linear-gradient(#4b5df5, #8051f4);
     border-radius: 1em;
@@ -139,12 +139,24 @@ input[name="slide"] {
         align-items: center;
         justify-content: center;
         padding: 1.5rem 2.5rem;
+        gap: 1em;
+        margin-bottom: 0;
+    }
+
+    .slides {
+        height: 50%;
+    }
+
+    .slides img {
+        display: inline-block;
     }
 
     .controls {
         align-self: center;
         justify-content: center;
         width: 100%;
+        padding: 0;
+        height: auto;
     }
 
     .control {
@@ -154,25 +166,32 @@ input[name="slide"] {
 
     .titles {
         text-align: center;
+        height: auto;
+        order: 5;
     }
 
     .title {
         font-size: 1.5em;
     }
+
+    .slides {
+        height: 50%;
+    }
 }
 
 @media(max-width: 500px) {
-    .control {
-        width: 1em;
-        height: 1em;
+    .slider {
+        padding: 1rem 2rem;
+    }
+}
+
+@media(max-width: 350px) {
+    .slider {
+        padding: 0.5rem 1rem;
     }
 
     .title {
         font-size: 1em;
-    }
-
-    .slider {
-        padding: 1rem 2rem;
     }
 }
 
