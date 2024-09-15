@@ -59,14 +59,14 @@
     width: 25%;
     height: 100%;
 
-    font-size: 2em;
+    font-size: 1.5em;
     color: #1f31ea;
 }
 
 .controls {
     width: 20%;
     height: calc(20% - 1em);    
-    align-self: end;
+    align-self: center;
     display: flex;
     justify-content: end;
     /* align-items: center; */
@@ -173,7 +173,7 @@ input[name="slide"] {
     }
 
     .title {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .slides {
@@ -197,7 +197,7 @@ input[name="slide"] {
     }
 
     .title {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 }
 
