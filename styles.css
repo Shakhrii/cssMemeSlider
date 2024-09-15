@@ -129,7 +129,7 @@ input[name="slide"] {
 #pic2:checked ~ .controls label:nth-child(2):hover,
 #pic3:checked ~ .controls label:nth-child(3):hover,
 #pic4:checked ~ .controls label:nth-child(4):hover {
-    border: 5px solid #5826ed;
+    border: 0.1em solid #5826ed;
     background: transparent;
     opacity: 0.3;
 } 
